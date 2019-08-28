@@ -1,0 +1,35 @@
+version: '3.7'
+services:
+  zabbix-epics:
+    #image: itorafael/zabbix-epics:v0.2.2
+    image: zabbix-epics
+    volumes:
+      #- /home/con-srv/LA-disk0/misc-brick/repository/cons-zabbix:/opt
+        - /home/rafael/RAFAEL/git/cons-zabbix/zabbix-epics/:/opt/zabbix-epics/
+    #ports:
+    #  - "10050"    # Zabbix agent
+    #  - "10051"    # Zabbix trapper
+    networks:
+      hostnet: {}
+    dns:
+      - 10.0.0.71
+      - 10.0.0.72
+    deploy:
+      placement:
+        constraints:
+          #- node.hostname == CA-RaCtrl-CO-Srv-1
+          - node.hostname == lnls136
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "10"
+    #entrypoint: tail -f /dev/null
+
+networks:
+  hostnet:
+    external: true
+    name: host
