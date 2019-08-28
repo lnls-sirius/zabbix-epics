@@ -3,7 +3,7 @@ services:
   zabbix-epics:
     image: itorafael/zabbix-epics:v0.2.2
     volumes:
-      - /home/con-srv/LA-disk0/misc-brick/repository/cons-zabbix/zabbix-epics:/opt/zabbix-epics
+      - /home/con-srv/LA-disk0/misc-brick/repository/zabbix-epics:/opt/zabbix-epics
     #ports:
     #  - "10050"    # Zabbix agent
     #  - "10051"    # Zabbix trapper
