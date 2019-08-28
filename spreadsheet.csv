@@ -2,11 +2,11 @@ host,pv,interval,item_key,func
 Klystron 1,LA-CN:H1MPS-1:K1Temp1,1,K1Temp1,last
 Klystron 1,LA-CN:H1MPS-1:K1Temp2,1,K1Temp2,last
 Klystron 1,LA-CN:H1MPS-1:K1Temp3,1,K1Temp3,last
-Klystron 1,LA-CN:H1MPS-1:K1Temp6,1,K1Temp4,last
+Klystron 1,LA-CN:H1MPS-1:K1Temp6,1,K1Temp6,last
 Klystron 2,LA-CN:H1MPS-1:K2Temp1,1,K2Temp1,last
 Klystron 2,LA-CN:H1MPS-1:K2Temp2,1,K2Temp2,last
 Klystron 2,LA-CN:H1MPS-1:K2Temp3,1,K2Temp3,last
-Klystron 2,LA-CN:H1MPS-1:K2Temp6,1,K2Temp4,last
+Klystron 2,LA-CN:H1MPS-1:K2Temp6,1,K2Temp6,last
 Accelerating Structures,LA-CN:H1MPS-1:A1Temp1,1,A1Temp1,last
 Accelerating Structures,LA-CN:H1MPS-1:A1Temp2,1,A1Temp2,last
 Accelerating Structures,LA-CN:H1MPS-1:A2Temp1,1,A2Temp1,last
