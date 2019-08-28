@@ -15,3 +15,16 @@ Accelerating Structures,LA-CN:H1MPS-1:A3Temp1,1,A3Temp1,last
 Accelerating Structures,LA-CN:H1MPS-1:A3Temp2,1,A3Temp2,last
 Accelerating Structures,LA-CN:H1MPS-1:A4Temp1,1,A4Temp1,last
 Accelerating Structures,LA-CN:H1MPS-1:A4Temp2,1,A4Temp2,last
+Radiation probes,RAD:Berthold:TotalDoseRate:Dose-T,1,Bethold,last
+Radiation probes,RAD:ELSE:TotalDoseRate:Dose-T,1,ELSE,last
+Radiation probes,RAD:Thermo1:TotalDoseRate:Dose,1,Thermo1,last
+Radiation probes,RAD:Thermo2:TotalDoseRate:Dose,1,Thermo2,last
+Radiation probes,RAD:Thermo3:TotalDoseRate:Dose,1,Thermo3,last
+Radiation probes,RAD:Thermo4:TotalDoseRate:Dose,1,Thermo4,last
+Radiation probes,RAD:Thermo5:TotalDoseRate:Dose,1,Thermo5,last
+Radiation probes,RAD:Thermo6:TotalDoseRate:Dose,1,Thermo6,last
+Radiation probes,RAD:Thermo7:TotalDoseRate:Dose,1,Thermo7,last
+Radiation probes,RAD:Thermo8:TotalDoseRate:Dose,1,Thermo8,last
+Radiation probes,RAD:Thermo9:TotalDoseRate:Dose,1,Thermo9,last
+Radiation probes,RAD:Thermo10:TotalDoseRate:Dose,1,Thermo10,last
+Radiation probes,RAD:Thermo11:TotalDoseRate:Dose,1,Thermo11,last
