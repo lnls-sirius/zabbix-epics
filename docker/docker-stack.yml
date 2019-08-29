@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   zabbix-epics:
-    image: itorafael/zabbix-epics:v0.2.2
+    image: lnlscon/zabbix-epics:v0.2.2
     volumes:
       - /home/con-srv/LA-disk0/misc-brick/repository/zabbix-epics:/opt/zabbix-epics
     #ports:
