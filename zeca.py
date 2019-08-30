@@ -9,7 +9,7 @@ information:
 ------------
 maintainer: Rafael Ito
 e-mail:     rafael.ito@lnls.br
-github:     https://gitlab.cnpem.br/con/cons-zabbix
+github:     https://github.com/lnls-sirius/zabbix-epics
 --------------------------------------------------
 description:
 ------------
