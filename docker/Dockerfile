@@ -12,6 +12,7 @@ USER root
 # v0.2: mount volume instead of copying files (docker swarm)
 # v0.2.1: updated service name in docker-stack.yml
 # v0.2.2: fixed volume path and uncommented COPY commands in Dockerfile
+# v0.2.3: cloned wait-for-it repository
 
 #================================================
 # install prerequisites
@@ -36,6 +37,10 @@ WORKDIR /opt
 RUN git clone https://github.com/sasaki77/zabbix-epics-py
 WORKDIR zabbix-epics-py
 RUN pip3 install -e .
+#------------------------------------------------
+# clone wait-for-it repository 
+WORKDIR /opt
+RUN git clone https://github.com/vishnubob/wait-for-it
 
 #================================================
 # Ports & Environment Variables
