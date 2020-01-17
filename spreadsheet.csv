@@ -44,5 +44,5 @@ Pulsed Magnets,TS-04:PU-InjSeptF:Voltage-Mon,monitor,TS-InjSeptThin,last
 Pulsed Magnets,SI-01SA:PU-InjNLKckr:Voltage-Mon,monitor,SI-InjNLK,last
 Pulsed Magnets,SI-01SA:PU-InjDpKckr:Voltage-Mon,monitor,SI-PingH,last
 Pulsed Magnets,SI-19C4:PU-PingV:Voltage-Mon,monitor,SI-PingV,last
-UPS connectivity room,UPS:BAT:01,monitor,UPS-BAT,last
-UPS connectivity room,UPS:LEVEL:01,monitor,UPS-LEVEL,last
+UPS connectivity room,UPS:BAT:01,10,UPS-BAT,last
+UPS connectivity room,UPS:LEVEL:01,10,UPS-LEVEL,last
