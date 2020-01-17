@@ -13,6 +13,7 @@ USER root
 # v0.2.1: updated service name in docker-stack.yml
 # v0.2.2: fixed volume path and uncommented COPY commands in Dockerfile
 # v0.2.3: cloned wait-for-it repository
+# v0.3.0: installation with pip (requirements.txt) instead of manually
 
 #================================================
 # install prerequisites
@@ -32,11 +33,11 @@ COPY docker/requirements.txt /opt
 RUN pip3 install -r requirements.txt
 RUN rm requirements.txt
 #------------------------------------------------
-# clone zabbix-epics-py and install it 
-WORKDIR /opt
-RUN git clone https://github.com/sasaki77/zabbix-epics-py
-WORKDIR zabbix-epics-py
-RUN pip3 install -e .
+## clone zabbix-epics-py and install it 
+#WORKDIR /opt
+#RUN git clone https://github.com/sasaki77/zabbix-epics-py
+#WORKDIR zabbix-epics-py
+#RUN pip3 install -e .
 #------------------------------------------------
 # clone wait-for-it repository 
 WORKDIR /opt

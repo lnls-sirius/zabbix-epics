@@ -1,15 +1,18 @@
 version: '3.7'
 services:
   zabbix-epics:
-    image: lnlscon/zabbix-epics:v0.2.2
+    image: itorafael/zabbix-epics:latest
+    #image: lnlscon/zabbix-epics:v0.2.2
     volumes:
-      - /home/con-srv/LA-disk0/misc-brick/repository/zabbix-epics:/opt/zabbix-epics
+      #- /home/con-srv/LA-disk0/misc-brick/repository/zabbix-epics:/opt/zabbix-epics
+      - /home/con-srv/repository/zabbix-epics:/opt/zabbix-epics
     #ports:
     #  - "10050"    # Zabbix agent
     #  - "10051"    # Zabbix trapper
     networks:
       hostnet: {}
     dns:
+      - 10.128.255.7
       - 10.0.0.71
       - 10.0.0.72
     deploy:
