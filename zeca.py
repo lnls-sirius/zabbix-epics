@@ -53,6 +53,8 @@ items = []
 zabbix_instances = []
 spreadsheet_size = len(s_host)
 for i in range(spreadsheet_size):
+    if (s_interval[i] != 'monitor'):
+        s_interval[i] = int(s_interval[i])
     items.append([
         dict(
             host     = s_host[i],
