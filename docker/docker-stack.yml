@@ -4,7 +4,7 @@ services:
     image: itorafael/zabbix-epics:latest
     #image: lnlscon/zabbix-epics:v0.2.3
     volumes:
-      - /storage/service/repository/zabbix-epics:/opt/zabbix-epics
+      - /storage/services/repository/zabbix-epics:/opt/zabbix-epics
     #ports:
     #  - "10050"    # Zabbix agent
     #  - "10051"    # Zabbix trapper
