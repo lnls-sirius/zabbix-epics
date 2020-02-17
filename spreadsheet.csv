@@ -16,7 +16,7 @@ Accelerating Structures,LA-CN:H1MPS-1:A3Temp2,monitor,A3Temp2,last
 Accelerating Structures,LA-CN:H1MPS-1:A4Temp1,monitor,A4Temp1,last
 Accelerating Structures,LA-CN:H1MPS-1:A4Temp2,monitor,A4Temp2,last
 Radiation probes,RAD:Berthold:TotalDoseRate:Dose-T,monitor,Berthold,last
-Radiation probes,RAD:ELSE:TotalDoseRate:Dose-T,monitor,ELSE,last
+Radiation probes,RAD:ELSE:TotalDoseRate:Dose,monitor,ELSE,last
 Radiation probes,RAD:Thermo1:TotalDoseRate:Dose,monitor,Thermo1,last
 Radiation probes,RAD:Thermo2:TotalDoseRate:Dose,monitor,Thermo2,last
 Radiation probes,RAD:Thermo3:TotalDoseRate:Dose,monitor,Thermo3,last
