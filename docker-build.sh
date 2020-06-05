@@ -1,1 +1,1 @@
-docker build -t itorafael/zabbix-epics:latest -f docker/Dockerfile .
+docker build -t lnlscon/zabbix-epics:latest -f docker/Dockerfile .
